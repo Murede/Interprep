@@ -188,7 +188,7 @@ MIT License.
 ## **📧 Contact**
 
 **Developer**: Murede Adetiba
-**Email**: [your-email@example.com](mailto:your-email@example.com)
+**Email**: [murede2005@gmail.com](mailto:your-email@example.com)
 **GitHub**: [https://github.com/Murede](https://github.com/Murede)
 
 
