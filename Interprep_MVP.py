@@ -4,7 +4,7 @@ import csv
 import json
 
 
-class InterprepUser:
+class InterPrepUser:
     # Interprep User Constructor (contains all the information for a single Interprep user)
     def __init__(self):
         self.first_name = ""
@@ -158,3 +158,44 @@ class InterprepUser:
         with open(filename, "r") as f:
             data = json.load(f)
             self.__dict__.update(data)
+
+    def debug_resume_processing(self, career, file_path="skills_database.csv"):
+        """
+        Debugging helper to troubleshoot why skills aren't being extracted.
+        """
+
+        print("\n🔎 DEBUGGING RESUME PROCESSING 🔎")
+
+        # 1. Preview extracted text
+        print("\n----- Resume Text Preview -----")
+        print(self.resume_text[:500] if self.resume_text else "⚠️ No text extracted from resume.")
+        print("----- End Preview -----")
+
+        # 2. Check available career keys in CSV
+        skills_dict = {}
+        with open(file_path, mode="r") as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                skills_dict[row["Career"].strip()] = [
+                    s.strip() for s in row["Skills"].split(";")
+                ]
+
+        print("\n📂 Careers available in CSV:")
+        print(list(skills_dict.keys())[:10], "...")  # show first 10 careers    
+
+        # 3. Check if career exists
+        if career.strip() not in skills_dict:
+            print(f"⚠️ Career '{career}' not found in CSV. Did you mean one of these?")
+            close_matches = [c for c in skills_dict.keys() if career.lower() in c.lower()]
+            print("Possible matches:", close_matches if close_matches else "None")
+        else:
+            print(f"✅ Career '{career}' found in CSV.")
+
+         # 4. Show the expected skills
+        keywords = skills_dict.get(career.strip(), [])
+        print(f"\n🎯 Skills expected for {career}: {keywords}")
+
+        # 5. Test matching logic
+        matched = [skill for skill in keywords if skill.lower() in self.resume_text.lower()]
+        print(f"\n📝 Matched skills in resume: {matched if matched else 'None'}")
+        print("🔎 DEBUGGING COMPLETE\n")
