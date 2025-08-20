@@ -1,5 +1,34 @@
-Skill,Resource Name,Type,Link,Free
-Python,Python for Everybody,Course,https://www.coursera.org/specializations/python,Yes
-Python,Automate the Boring Stuff,Book,https://automatetheboringstuff.com/,Yes
-Circuit Design,Intro to Circuit Design,Course,https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/,Yes
-UX Design,Google UX Design Certificate,Course,https://www.coursera.org/professional-certificates/google-ux-design,No
+Career,Skill,Resource Name,Type,Link,Free
+Software Engineer,Python,Python for Everybody,Course,https://www.coursera.org/specializations/python,Yes
+Software Engineer,Python,Automate the Boring Stuff,Book,https://automatetheboringstuff.com/,Yes
+Software Engineer,Python,Learn Python the Hard Way,Book,https://learnpythonthehardway.org/,No
+Software Engineer,Java,Java Programming and Software Engineering Fundamentals,Course,https://www.coursera.org/specializations/java-programming,Yes
+Software Engineer,C++,C++ Tutorial (w3schools),Tutorial,https://www.w3schools.com/cpp/,Yes
+Software Engineer,C++,Beginning C++ Programming,Course,https://www.udemy.com/course/beginning-c-plus-plus-programming/,No
+Software Engineer,SQL,Mode SQL Tutorial,Interactive,https://mode.com/sql-tutorial/,Yes
+Software Engineer,Algorithms,Algorithms Specialization (Stanford),Course,https://www.coursera.org/specializations/algorithms,No
+Software Engineer,Data Structures,GeeksforGeeks Data Structures,Reference,https://www.geeksforgeeks.org/data-structures/,Yes
+Software Engineer,Git,Pro Git Book,Book,https://git-scm.com/book/en/v2,Yes
+Software Engineer,Agile Development,Agile with Atlassian Jira,Course,https://www.coursera.org/learn/agile-atlassian-jira,No
+
+Electrical Engineer,Matlab,Matlab Onramp,Course,https://matlabacademy.mathworks.com/,Yes
+Electrical Engineer,Circuit Design,Intro to Circuit Design,Course,https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/,Yes
+Electrical Engineer,Power Systems,Power Systems Basics,Course,https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-061-introduction-to-electric-power-systems-spring-2011/,Yes
+Electrical Engineer,PCB Design,KiCad Like a Pro,Book,https://leanpub.com/kicad-like-a-pro,No
+Electrical Engineer,Microcontrollers,Arduino Project Hub,Projects,https://projecthub.arduino.cc/,Yes
+Electrical Engineer,AutoCAD Electrical,AutoCAD Electrical Fundamentals,Course,https://www.autodesk.com/certification/overview/autocad-electrical,No
+
+AI/ML Developer,Machine Learning,Andrew Ng Machine Learning,Course,https://www.coursera.org/learn/machine-learning,Yes
+AI/ML Developer,Deep Learning,Deep Learning Specialization,Course,https://www.coursera.org/specializations/deep-learning,No
+AI/ML Developer,TensorFlow,TensorFlow Tutorials,Documentation,https://www.tensorflow.org/tutorials,Yes
+AI/ML Developer,PyTorch,PyTorch Tutorials,Documentation,https://pytorch.org/tutorials/,Yes
+AI/ML Developer,NLP,CS224N: Natural Language Processing,Course,https://web.stanford.edu/class/cs224n/,Yes
+AI/ML Developer,Model Deployment,Full Stack Deep Learning,Course,https://fullstackdeeplearning.com/,Yes
+AI/ML Developer,Data Analysis,Data Analysis with Python,Course,https://www.coursera.org/learn/data-analysis-with-python,Yes
+
+UX Designer,Wireframing,Figma Learn,Guide,https://help.figma.com/hc/en-us/articles/360040518034-Learn-Design-with-Figma,Yes
+UX Designer,Prototyping,Prototyping for Designers,Book,https://www.oreilly.com/library/view/prototyping-for-designers/9781491952789/,No
+UX Designer,UI Design,Learn UI Design,Course,https://learnui.design/,No
+UX Designer,Usability Testing,NNGroup Usability Testing,Guide,https://www.nngroup.com/articles/usability-testing-101/,Yes
+UX Designer,Information Architecture,Information Architecture Basics,Article,https://www.usability.gov/what-and-why/information-architecture.html,Yes
+UX Designer,User Research,User Research Fundamentals,Course,https://www.interaction-design.org/courses/user-research-methods-and-best-practices,No
